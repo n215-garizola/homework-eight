@@ -1,0 +1,83 @@
+.content {
+  background-color: white;
+  padding: 50px;
+
+  .bigImage {
+    height: 600px;
+    background-color: white;
+    background-image: url(../images/taxi_driver_still.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .bigImage1 {
+    height: 500px;
+    background-color: white;
+    background-image: url(../images/Travis-and-Betsy-in-Taxi-Driver.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .image-big {
+    height: 300px;
+    background-color: white;
+    background-image: url(../images/td1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .imagebig {
+    height: 500px;
+    background-color: white;
+    background-image: url(../images/taxi-driver-el.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .imagebig1 {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    background-image: url(../images/taxi6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .products {
+    width: 900px;
+    min-height: 50px;
+    margin: 0 auto;
+
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      .product-image {
+        background-image: url(../images/td1.jpeg);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-size: cover;
+      }
+
+      .product-image1 {
+        background-image: url(../images/Taxi-Driver-Robert.jpeg);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-size: cover;
+      }
+
+      .product-description {
+        width: 500px;
+      }
+    }
+  }
+}
